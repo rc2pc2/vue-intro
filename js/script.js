@@ -8,7 +8,7 @@ createApp({
     },
 
     methods: {
-        funzione(){
+        testingFunction(){
             this.message = 'How to edit data fields from a function';
         }
     },
