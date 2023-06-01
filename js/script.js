@@ -9,7 +9,7 @@ createApp({
 
     methods: {
         funzione(){
-            this.message = 'cosa nuova';
+            this.message = 'How to edit data fields from a function';
         }
     },
 

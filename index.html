@@ -16,9 +16,6 @@
             <h1 class="text-yellow" :class="classes" >
                 {{ message }}
             </h1>
-            <p>
-                {{ message === "" }}
-            </p>
             <div>
                 <input type="text" v-model="classes" @keyup.enter="funzione">
             </div>
