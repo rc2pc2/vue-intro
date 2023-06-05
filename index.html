@@ -13,11 +13,12 @@
         <script src="https://unpkg.com/vue@3"></script>
 
         <div id="app">
-            <h1 class="text-yellow" :class="classes" >
+            <p class="text-yellow" :class="classes" >
                 {{ message }}
-            </h1>
+            </p>
+            <img :src="imageSrc" v-bind:alt="'Random image '+ message">
             <div>
-                <input type="text" v-model="classes" @click="testingFunction">
+                <input type="text" v-model="message" @click="testingFunction">
             </div>
         </div>
 
